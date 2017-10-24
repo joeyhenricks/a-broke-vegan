@@ -15,6 +15,7 @@
     {% block content %}
 
     {{ page.content }}
+        {% do assets.addCss('theme://css/widget_css_2_bundle.css') %}
         {% include 'partials/blog_sidebar_header.html.twig' %}
 
         {% for child in collection %}
@@ -29,5 +30,3 @@
     {% endblock %}
 
 {% endembed %}
-
-

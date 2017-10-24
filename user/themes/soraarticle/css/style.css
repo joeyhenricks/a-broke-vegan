@@ -31,6 +31,20 @@ i, em{ font-style: italic; }
 .clear-fix{ zoom: 1; }
 .clear-fix:after{ content: "."; display: block; clear: both; visibility: hidden; line-height: 0; height: 0; }
 
+/* green title with special font*/
+.green-title {
+  color: green;
+  font-family: 'Handlee', cursive;
+}
+
+/*BLOG FONT iNFO*/
+
+.blog-font-choice {font-family: 'Muli', sans-serif;}
+
+<style>
+@import url('https://fonts.googleapis.com/css?family=Muli');
+</style>
+
 /*--- wordpress core ---*/
 .alignnone { margin: 5px 20px 20px 0; }
 .aligncenter, div.aligncenter { display: block; margin: 5px auto 5px auto; }
@@ -2579,6 +2593,10 @@ html[xmlns] .slides {display: block;}
 html body{ min-width: 300px; }
 
 #gdlr-responsive-navigation{ display: none; }
+
+.blog-content-inner-wrapper {
+  font-family: 'Muli', sans-serif;
+}
 
 /*--- tablet ---*/
 @media only screen and (max-width: 959px) {
